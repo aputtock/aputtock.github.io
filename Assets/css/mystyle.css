@@ -22,8 +22,9 @@ h1 {
 
 h2 {
   color: rgb(48, 48, 61);
-  font-size: ;
+  font-size: 22px;
   font-family: 'Montserrat', sans-serif ;
+  letter-spacing: 2px;
     
   }
 
@@ -38,8 +39,7 @@ h2 {
     text-align: justify;
     text-shadow: #576458;
     letter-spacing: 3px; 
-    font-weight: 300;
-    font-size: 30px;
+    font-weight: 200;
     font-family: sans-serif ;
     }
 
@@ -82,6 +82,14 @@ h2 {
     border-radius: 10px;
   }
 
+ .pclass {
+  font-size:20px ;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%; /* Adjust the width as needed */
+ }
 
 /* IMAGE FORMATTING */
 
@@ -105,6 +113,7 @@ h2 {
     padding-left: 80px;
     padding-right: 40px;
     background-color: #C9C1B0;
+    
     }
   .site-title-container
   {
@@ -113,29 +122,30 @@ h2 {
     padding-left: 80px;
     padding-right: 40px;
     background-color: ;
+    border-radius: 30px;
     }
-  .site-heading-text-container
+  .site-heading-text-container1
   {
     padding-bottom: 80px;
     padding-left: 80px;
     padding-right: 40px;
+    border-radius: 30px;
+  }
     }
 
-    /* HOMEPAGE DIV CLASSES */
     .main-section-cards
     {
-      padding-top: 100;
-      padding-bottom: 80px;
-      padding-left: 80px;
-      padding-right: 40px;
       background-color: #C9C1B0;
+      margin: 30px;
       }
 
       .main-cards-item
       {
         background-color: #e6dcc8;
         border-radius: 40px;
-        border-width: 10px;
+        margin: 20px;
+        
+
         }
 
     /* CONTACT PAGE DIV CLASSES */
@@ -179,8 +189,16 @@ margin-top: 15px;
 
   .contact {
     background: #f0e7e7;
-    border-radius: 10px;
   }
+
+  /* ABOUT ME SECTION DIV SETIONS */
+
+  .heading-text-container
+{
+    background: #f0e7e7;
+    border-radius: 30px;
+    text-align: justify;
+   }
 
   .dropdown-item {
     text-transform: none;
@@ -386,4 +404,30 @@ footer {
     display: block; /* Stack social media links vertically */
     margin: 5px 0;
   }
+}
+
+.h2align {
+  text-align: center; /* Centers the text within the heading */
+}
+
+
+
+
+
+
+
+
+/* CHAT GPT */
+
+.site-heading-text-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+  height: 100%;            /* Ensure the container has enough height */
+  text-align: center;      /* Center text inside the h2 */
+}
+
+.heading-text-container {
+  display: flex;
+  justify-content: center; /* Horizontally centers the items */
 }
