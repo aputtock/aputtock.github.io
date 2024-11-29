@@ -1,0 +1,328 @@
+/* TEXT FORMATTING */
+
+body {
+    font-size: ;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-weight: ;
+    font-style: normal;
+    letter-spacing: ;
+    line-height: ;
+    word-spacing: ;
+    white-space: ;
+    
+  }
+
+
+h1 {
+    color: rgb(48, 48, 61); /* Makes the heading text dark blue */
+  }
+
+  h2 {
+    color: rgb(48, 48, 61); /* Makes the heading text dark blue */
+    
+  }
+
+  h3 {
+    color: rgb(48, 48, 61); /* Makes the heading text dark blue */
+  }
+
+  .workplace { 
+    letter-spacing: 2px; 
+    font-size: 14;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+.nav-item {
+    text-transform: uppercase ;
+    letter-spacing: 5px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+  p {
+    color: rgb(76, 77, 76); /* Makes the paragraph text green */
+  }
+
+  a:link {
+    
+  }
+
+  a:visited {
+    
+  }
+
+  a:hover {
+    background: #f0e7e7;
+    border-radius: 10px;
+  }
+  
+  a:active {
+    background: #f0e7e7;
+    border-radius: 10px;
+  }
+
+/* IMAGE FORMATTING */
+
+.container {
+  background-color: #8b918b;
+}
+
+.icon {
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+}
+
+/* DIV CLASSES */
+
+    /* CONTACT PAGE DIV CLASSES */
+.contact1 {
+padding-top: 80px;
+padding-bottom: 80px;
+padding-left: 80px;
+padding-right: 40px;
+}
+
+.contact2 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  }
+
+ .div1 {
+  grid-column: span 5 / span 5;
+  grid-row: span 2 / span 2;
+}
+
+.expdiv {
+border-radius: 20px;
+border: 1px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 20px;
+margin-bottom: 15px;
+margin-top: 15px;
+}
+
+  .h3exp {
+    text-transform: none;
+    text-align: left;
+    letter-spacing: 2px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 22px;
+    padding-top: 22px;
+
+  }
+
+
+  .contact {
+    background: #f0e7e7;
+    border-radius: 10px;
+  }
+
+  .dropdown-item {
+    text-transform: none;
+    text-align: left;
+    letter-spacing: 2px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container-fluid {
+  border: 0px;
+}
+
+
+
+/* TEXT CLASSES */
+
+.subpage
+{font-size: 70px;
+font-weight: 200;
+font-family: sans-serif;}
+
+.maindescription {
+letter-spacing: 5px; 
+text-align: justify;
+line-height: 3rem;
+padding-bottom: 50px;
+padding-top: 50px;
+}
+
+
+.skill-button {
+  background-color: #818a81;  
+  color: white;               
+  padding: 2px 2px;        
+  font-size: 10px;    
+  font-family:Arial, Helvetica, sans-serif ;       
+  border: 1px;               
+  border-radius: 20px;         
+  cursor: pointer;           
+  transition: background-color 0.3s ease;
+  align-items: bottom;
+  align-content: center;
+}
+
+
+
+.contactclass {
+  font-size: 70px;
+  font-weight: 200;
+  font-family: sans-serif;
+}
+
+.subheading {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif ;
+  letter-spacing: 2px; 
+  text-align: justify;
+}
+
+/* LIST CLASSES */
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr;  /* Stacks items in a single column */
+}
+
+/* BUTTON CLASSES */
+
+.my-button {
+  background-color: #818a81;  
+  color: white;               
+  padding: ;      
+  font-size: 16px;    
+  font-family:Arial, Helvetica, sans-serif ;       
+  border: 1px;               
+  border-radius: 20px;         
+  cursor: pointer;           
+  transition: background-color 0.3s ease;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;  
+  padding: 40px 30px 100px 10px;
+  justify-content: center ;  /* Space between buttons */
+  gap: 200px;  /* Optional: Space between buttons */
+}
+
+/* Hover state */
+.my-button:hover {
+  background-color: #8b918b;  /* Darker green on hover */
+}
+
+/* Active state */
+.my-button:active {
+  background-color: #576458;  /* Even darker green when clicked */
+}
+
+.ruler {
+color: #576458;
+  padding-bottom: 40px;
+
+}
+
+
+/* THIS IS THE FOR LARGER BUTTONS THAT LEAD TO SECTIONS */
+
+.mybuttonex {
+  background-color: #818a81;  
+  color: white;               
+  padding-left: 75px;    
+  padding-right: 75px;  
+  margin-top: 40px;
+  font-size: 24px;    
+  font-family:Arial, Helvetica, sans-serif ;       
+  border: 1px;               
+  border-radius: 10px;         
+  cursor: pointer;           
+  transition: background-color 0.3s ease;
+  align-items: center;
+}
+
+.mybuttonex-container {
+  display: flex;  
+  justify-content: center ;  /* Space between buttons */
+  gap: 00px;  /* Optional: Space between buttons */
+}
+
+/* Hover state */
+.mybuttonex:hover {
+  background-color: #8b918b;  /* Darker green on hover */
+}
+
+/* Active state */
+.mybuttonex:active {
+  background-color: #576458;  /* Even darker green when clicked */
+}
+
+/* THIS IS THE FOOTER SETION */
+
+footer {
+  background-color: white;
+  padding: 5px 0;
+  text-align: bottom;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.footer-container {
+  display: flex; /* Horizontal layout */
+  justify-content: space-between; /* Space between footer sections */
+  align-items: right; /* Align items vertically */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-left,
+.footer-middle,
+ {
+  flex: 1;
+}
+
+.footer-middle ul,
+ ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-middle ul li,
+ ul li {
+  display: inline-block;
+  margin: 0 15px; /* Space between items */
+}
+
+.footer-middle ul li a,
+ ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color:  rgb(48, 48, 61);
+  text-align: right;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    text-align: center;
+  }
+
+  .footer-left,
+  .footer-middle,
+  .footer-right {
+    margin-bottom: 10px;
+    flex: none;
+  }
+
+  .footer-middle ul li,
+  .footer-right ul li {
+    display: block; /* Stack social media links vertically */
+    margin: 5px 0;
+  }
+}
