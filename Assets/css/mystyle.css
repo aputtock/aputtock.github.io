@@ -1,8 +1,76 @@
-/* TEXT FORMATTING */
+/* TEXT FORMATTING FOR ALL PAGES */
 
+  /* GOOGLE FONTS */
+
+.bitterh1 {
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 60px;
+}
+
+.bitterh3
+{
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  text-align: center;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 2em;
+}
+
+
+.bitterh4
+{
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  text-align: center;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 2em;
+}
+
+.bitterh5
+{
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  text-align: center;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+}
+
+
+.mainh3 {
+  font-family: "Geologica", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 30px;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0,
+    "SHRP" 0;
+  text-align: center;
+  letter-spacing: 3px;
+  text-decoration: none; 
+}
+
+.mainh3:hover {
+  text-decoration: bold;
+  color: #36342e ; 
+}
+
+.mainh3:link {
+  text-decoration: bold; 
+  color: #807b6b ; 
+}
 
 body {
-    font-size: 16px;
+    font-size: 22px;
     font-family: 'Roboto slab', sans-serif ;
     font-weight: ;
     font-style: normal;
@@ -14,13 +82,13 @@ body {
   }
 
 
-h1 {
-    color: rgb(48, 48, 61);
-    font-size:
-    font-family: Arial, Helvetica, sans-serif, ;
-  }
-
 h2 {
+    font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  text-align: center;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
   color: rgb(48, 48, 61);
   font-size: 22px;
   font-family: 'Montserrat', sans-serif ;
@@ -28,68 +96,67 @@ h2 {
     
   }
 
-  h3 {
-    color: rgb(48, 48, 61);
-    font-size: 16px;
-    font-family: 'Roboto slab', sans-serif ;
+h3 {
+  color: rgb(48, 48, 61);
+  font-size: 16px;
+  font-family: 'Roboto slab', sans-serif ;
   }
 
-  .mainh3 {
-    text-transform: none;
-    text-align: center;
-    text-shadow: #576458;
-    letter-spacing: 3px; 
-    font-weight: 200;
-    font-family: sans-serif ;
-    }
-
-  h4 {
-    color: rgb(48, 48, 61);
-    font-size: 16px;
-    font-family: 'Roboto slab', sans-serif ;
+h4 {
+  color: rgb(48, 48, 61);
+  font-size: 16px;
+  font-family: 'Roboto slab', sans-serif ;
   }
 
-  .workplace { 
-    letter-spacing: 2px; 
-    font-size: 14;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-  
-.nav-item {
-    text-transform: uppercase ;
-    letter-spacing: 5px; 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.workplace {
+  letter-spacing: 2px; 
+  font-size: 14;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-  a:link {
-    text-decoration: none;
-    font-weight: none;
-  }
-
-  a:visited {
-    text-decoration: none;
-    font-weight: bold;
-    color: rgb(48, 48, 61);
-  }
-
-  a:hover {
-    background: #f0e7e7;
-    border-radius: 10px;
-  }
-  
-  a:active {
-    background: #f0e7e7;
-    border-radius: 10px;
-  }
-
- .pclass {
-  font-size:20px ;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.course-title {
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
   text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%; 
- }
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.course-faculty {
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  text-align: justify;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 22px;
+}
+
+.course-location-time {
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  text-align: justify;
+  text-decoration: italic;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+}
+
+/* Main text paragraph formatting */
+
+.pclass {
+    font-size:22px ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    line-height: 1.3em;
+    margin-left: auto;
+    margin-right: auto;
+    color: #4f4c42 ;
+    width: 90%; 
+    text-wrap: ;
+   }
+
+  /* Special heading for Skills page */
 
 .skills-h2 {
   font-size:50px ;
@@ -97,6 +164,7 @@ h2 {
   text-align: center;
   color: #515551;
  }
+  /* Main text for skills description */
 
 .skills {
   font-size: 22px ;
@@ -110,19 +178,129 @@ h2 {
   word-spacing: 5px;
  }
 
+  /* Heading for experience page */
+ .h3exp {
+  text-transform: none;
+  text-align: left;
+  letter-spacing: 2px; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-bottom: 22px;
+ padding-top: 22px;
+   }
+
+.intext:hover {
+  background-color: #c2bdb0;
+  transform: scale(1.1); 
+}
+
+
+
+/* RULER FORMATTING */
+
+.ruler {
+  color: #4f4c42;
+  max-width: 100%;
+  height: 5px; 
+}
+
+
+
+
+
+
+
+
+/* NAVIGATION MENU FORMATTING */
+
+.nav-item {
+    text-transform: uppercase ;
+    letter-spacing: 5px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+  a:link {
+    text-decoration: none;
+    font-weight: none;
+    color: #4f4c42 ;
+  }
+
+  a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    color: #4f4c42 ;
+  }
+
+  a:hover {
+    border-radius: 10px;
+    text-decoration: bold;
+  }
+  
+  a:active {
+     border-radius: 10px;
+  }
+
+  .dropdown-item {
+  text-transform: none;
+  text-align: left;
+  letter-spacing: 2px; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
 /* IMAGE FORMATTING */
 
-.container {
-  background-color: #8b918b;
+    /* Formatting for icons */
+.icon {
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
 }
 
-.icon {
+.course-icon {
   margin-right: 10px;
-  width: 15px;
-  height: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 100px;
+  height: 100px;
+
 }
+
+.course-icon-mcgill {
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 80px;
+  height: 80px;
+
+}
+
+.mainpageimage {
+  margin-right: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.intext-imgleft {
+  float: left; /* Makes the image float to the left */
+  margin-right: 15px; /* Adjusts space between the image and text */
+  margin-bottom: 15px; /* Adjusts space below the image */
+  border-color: #ada899 ;
+  border-radius: 10px;
+}
+
+
+
 
 /* DIV CLASSES */
+
   /* MAIN PAGE DIV CLASSES - ACCROSS ALL PAGES */
 
   .main-container {
@@ -138,35 +316,44 @@ h2 {
     padding-bottom: 80px;
     padding-left: 80px;
     padding-right: 40px;
-    background-color: ;
-    border-radius: 30px;
+    background-color: #d6d1c2 ;
+    min-height: 100vh;          /* Ensure it covers the full viewport height */
+    display: flex;              /* Optional: To make sure the content is centered */
+
     }
+
   .site-heading-text-container1 {
     padding-bottom: 80px;
     padding-left: 80px;
     padding-right: 40px;
     border-radius: 30px;
   }
-    }}
 
-    .main-section-cards
-    {
-      background-color: #C9C1B0;
-      margin: 30px;
-      }
+  .main-section-cards {
+    background-color:;
+    margin: 0px;
+  }
 
-      .main-cards-item
-      {
-        background-color: #e6dcc8;
-        border-radius: 40px;
-        margin: 20px;
-        }
+  .main-cards-item {
+    background-color: #d6d1c2 ;
+    border-radius: 4px;
+    margin: 20px;
+  }
 
-    /* PROGRESS BAR PAGE PAGE DIV CLASSES */
-    .progress-bar-danger {
-      background: #ffffff;
-      color: #C9C1B0;
+.main-cards-item:hover {
+  /* Add any styles you want to change when the div is hovered */
+  background-color: #c2bdb0 ; /* Change background color */
+  transform: scale(1.02); /* Slightly scale up the div */
+  transition: all 0.3s ease; /* Smooth transition for all properties */
+  }
+
+
+/* PROGRESS BAR PAGE PAGE DIV CLASSES */
+  .progress-bar-danger {
+  background: #ffffff;
+  color: #C9C1B0;
     }
+
 
     /* CONTACT PAGE DIV CLASSES */
 .contact1 {
@@ -177,13 +364,13 @@ padding-right: 40px
 }
 
 .contact2 {
-  padding-top: 80px;
-  padding-bottom: 80px;
+padding-top: 80px;
+padding-bottom: 80px;
   }
 
- .div1 {
-  grid-column: span 5 / span 5;
-  grid-row: span 2 / span 2;
+.div1 {
+grid-column: span 5 / span 5;
+grid-row: span 2 / span 2;
 }
 
 .expdiv {
@@ -197,57 +384,43 @@ margin-bottom: 15px;
 margin-top: 15px;
 }
 
-  .h3exp {
-    text-transform: none;
-    text-align: left;
-    letter-spacing: 2px; 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-bottom: 22px;
-    padding-top: 22px;
+/* ABOUT ME SECTION DIV SETIONS */
 
-  }
-
-  .contact {
-    background: #f0e7e7;
-  }
-
-  /* ABOUT ME SECTION DIV SETIONS */
-
-  .heading-text-container
-{
-    background: #f0e7e7;
-    border-radius: 30px;
-    text-align: justify;
+.text-container {
+  background: #ede8d8;
+  border-radius: 10px;
+  border-width: 0px;
+  text-align: justify;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  display: inline-block
    }
 
-   .skills-project-text-container
-   {
-    background: #f0e7e7;
-    border-radius: 30px;
-    text-align: justify;
-
-   }
-
-
-   .white-heading-text-container
-   {
-    background: #ffffff;
-    border-radius: 30px;
-    text-align: center;
-   }
-
-  .dropdown-item {
-    text-transform: none;
-    text-align: left;
-    letter-spacing: 2px; 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.nested-text-container {
+  background: #fffbed;
+  border-radius: 0px;
+  border-width: 0px;
+  text-align: justify;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  display: inline-block
 }
 
-.container-fluid {
-  border: 0px;
+.skills-project-text-container {
+  background: #f0e7e7;
+  border-radius: 30px;
+  text-align: justify
 }
 
-
+.white-heading-text-container {
+  background: #ffffff;
+  border-radius: 30px;
+  text-align: center;
+   }
 
 /* TEXT CLASSES */
 
@@ -264,7 +437,6 @@ padding-bottom: 50px;
 padding-top: 50px;
 }
 
-
 .skill-button {
   background-color: #818a81;  
   color: white;               
@@ -278,8 +450,6 @@ padding-top: 50px;
   align-items: bottom;
   align-content: center;
 }
-
-
 
 .contactclass {
   font-size: 70px;
@@ -339,6 +509,10 @@ color: #576458;
 
 }
 
+.container {
+color: #c2bdb0;
+}
+
 
 /* THIS IS THE FOR LARGER BUTTONS THAT LEAD TO SECTIONS */
 
@@ -373,10 +547,12 @@ color: #576458;
   background-color: #576458;  /* Even darker green when clicked */
 }
 
+
+
 /* THIS IS THE FOOTER SETION */
 
 footer {
-  background-color: white;
+  background-color: #d6d1c2  ;
   padding: 5px 0;
   text-align: bottom;
   position: fixed;
@@ -392,7 +568,7 @@ footer {
   align-items: right; /* Align items vertically */
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 .footer-left,
@@ -446,19 +622,11 @@ footer {
   text-align: center; /* Centers the text within the heading */
 }
 
-
-
-
-
-
-
-
 /* CHAT GPT */
 
 .site-heading-text-container {
   display: flex;
   justify-content: center; /* Center horizontally */
-  align-items: center;     /* Center vertically */
   height: 100%;            /* Ensure the container has enough height */
   text-align: center;      /* Center text inside the h2 */
 }
