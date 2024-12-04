@@ -215,6 +215,7 @@ h4 {
 .nav-item {
     text-transform: uppercase ;
     letter-spacing: 5px; 
+    font-size: 16px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -313,12 +314,12 @@ img {
 
   .site-title-container {
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 0x;
     padding-left: 80px;
     padding-right: 40px;
     background-color: #d6d1c2 ;
-    min-height: 100vh;          /* Ensure it covers the full viewport height */
-    display: flex;              /* Optional: To make sure the content is centered */
+    min-height: 50vh;          /* Ensure it covers the full viewport height */
+    display: flex;             /* Optional: To make sure the content is centered */
 
     }
 
