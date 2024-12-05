@@ -74,63 +74,79 @@
         </ul>
       </div>
     </nav>
+
       <!-- MAIN CONTENT -->
-  <div class="container-fluid">
-<!-- HEADER COLUMN -->
-<div class="container-fluid">
-<div class="row site-title-container">
-          <h1 class="bitterh1">soft skills</h1>
-    </div>
-    <div class="col-8 site-heading-text-container">
-    </div>
-
-    <!--TABLES  - FOR SKILLS, ODD NUMBER -->
-    <div class="row p-3 white-heading-text-container align-content-center">
-        <div class="col-6 p-3">
-        <h2 class="skills-h2">leadership</h2>
-        <p class="skills"><b>leadership /ˈliːdəʃɪp/</b> (noun): The ability to guide, influence, and motivate individuals or groups toward achieving a common goal or vision. It involves making decisions, taking responsibility, and inspiring others through example, communication, and direction. A leader must possess qualities such as integrity, empathy, strategic thinking, and resilience. Leadership can be formal, such as in organizational roles, or informal, where influence is exerted without official authority. Effective leadership fosters collaboration, trust, and accountability, empowering others to contribute their best toward success. Leadership is essential in various contexts, including business, politics, and community development.</p>
-        </div>
-        <div class="col-6 p-5 mt-4 skills-project-text-container align-content-left">
-          <h3 class="bitterh3">Projects</h3>
-          <p class="pclass">At this project I learned...</p>
-        </div>
-</div>
-
-<!-- TABLES - FOR SKILLS, EVEN NUMBER -->
-   <!-- LANDING PAGE LINKS -->
-   <div class="row p-5 white-heading-text-container align-content-center">
-    <div class="col-6 p-5 mt-4 skills-project-text-container align-content-left">
-      <h3 class="bitterh3">Projects</h3>
-      <p class="pclass">At this project I learned...</p>
-        </div>     
-        <div class="col-6 p-5 mt-3">
-        <h2 class="skills-h2">communication</h2>
-        <p class="skills"><b>communication /kəˌmjuːnɪˈkeɪʃən/</b> (noun): The process of exchanging information, ideas, thoughts, or feelings between individuals or groups. It can occur through verbal, non-verbal, written, or visual means. Effective communication involves clarity, active listening, empathy, and the ability to convey messages in a way that is understood by others. It includes both the transmission of messages and the interpretation of them. Communication is essential for building relationships, resolving conflicts, making decisions, and achieving mutual understanding. It plays a crucial role in personal, professional, and organizational success, fostering collaboration and ensuring alignment toward goals.</p>
-        </div>
-        </div>
-
-   </div>
-
-</body>
-
-<!-- THIS IS THE FOOTER-->
-
-    <footer>
-      <div class="footer-container">
-        <div class="footer-left">
-          <p>&copy; 2024. a puttock. all rights reserved.</p>
-        </div>
-        <div class="footer-middle">
-          <ul>
-            <li><a href="http://aputtock.github.io/index.html">back to home</a></li>
-          </ul>
+      <div class="container-fluid justify-content-center">
+    <!-- HEADER COLUMN - TO REUSE ACCROSS SITE -->
+    <div class="row site-title-containermain p-5">
+      <div class="col-3 p-5">
+        <h1 class="bitterh1" id="top">soft skills</h1>
+      </div>
+      
+      <!-- Card Links -->
+      <div class="col-4 main-section-cards">
+        <div class="row p-5 main-cards-item align-items-center text-wrap">
+          <h3 class="mainh3"><a href="#communication">communication</a></h3>
         </div>
       </div>
-    </footer>
-<!-- This is the END of container! --></div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
+      <div class="col-4 main-section-cards">
+        <div class="row p-5 main-cards-item justify-content-center align-items-center text-wrap">
+          <h3 class="mainh3"><a href="#leadership">leadership</a></h3>
+        </div>
+      </div>
+
+      <!-- Text Content for Soft Skills -->
+      <div class="col-8 site-heading-text-container">
+        <!-- This section can be used for further content if needed -->
+      </div>
+    </div>
+
+    <!-- Skills Description - Leadership Example -->
+    <div class="row white-heading-text-container align-content-center">
+      <div class="col-6 p-2">
+        <h2 class="skills-h2" id="leadership">leadership</h2>
+        <p class="skills"><b>leadership /ˈliːdəʃɪp/</b> (noun): The action of leading a group or organization, often involving decision-making, guiding others toward a common goal, and inspiring motivation.
+          The capacity to influence, inspire, and direct others in a way that promotes growth, success, and development within a team or community.</p>
+      </div>
+      <div class="col-6 p-2 skills-project-text-container align-content-left">
+        <h3 class="skills-h2">projects</h3>
+        <p class="pclass">At this project I learned...
+          <a href="#top">Back to top</a></p>
+      </div>
+    </div>
+
+    <!-- Skills Description - Communication Example -->
+    <div class="row white-heading-text-container align-content-center">
+      <div class="col-6 p-2 skills-project-text-container align-content-left">
+        <h3 class="skills-h2">projects</h3>
+        <p class="pclass">At this project I learned...
+        <a href="#top">Back to top</a></p>
+      </div>
+      <div class="col-6 p-2 mt-3">
+        <h2 class="skills-h2" id="communication">communication</h2>
+        <p class="skills"><b>communication /kəˌmjuːnɪˈkeɪʃən/</b> (noun): The process of exchanging information, ideas, or feelings through speech, writing, or other forms of expression.
+          The act of conveying a message to others in a way that is understood, fostering connection and understanding.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-left">
+        <p>&copy; 2024. a puttock. all rights reserved.</p>
+      </div>
+      <div class="footer-middle">
+        <ul>
+          <li><a href="http://aputtock.github.io/index.html">Back to Home</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
+</body>
 
 </html>
-
-
