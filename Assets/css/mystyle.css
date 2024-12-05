@@ -96,18 +96,6 @@ h2 {
     
   }
 
-h3 {
-  color: rgb(48, 48, 61);
-  font-size: 16px;
-  font-family: 'Roboto slab', sans-serif ;
-  }
-
-h4 {
-  color: rgb(48, 48, 61);
-  font-size: 16px;
-  font-family: 'Roboto slab', sans-serif ;
-  }
-
 .workplace {
   letter-spacing: 2px; 
   font-size: 14;
@@ -151,7 +139,7 @@ h4 {
     line-height: 1.3em;
     margin-left: auto;
     margin-right: auto;
-    color: #4f4c42 ;
+    color: #2a4d69 ;
     width: 90%; 
     text-wrap: ;
    }
@@ -170,7 +158,7 @@ h4 {
   font-size: 22px ;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: justify;
-  color: #746d5e;
+  color: #2a4d69;
   margin-left: auto;
   margin-right: auto;
   width: 80%; 
@@ -189,7 +177,7 @@ h4 {
    }
 
 .intext:hover {
-  background-color: #c2bdb0;
+  background-color: #adcbe3;
   transform: scale(1.1); 
 }
 
@@ -198,7 +186,7 @@ h4 {
 /* RULER FORMATTING */
 
 .ruler {
-  color: #4f4c42;
+  color: #4b86b4;
   max-width: 100%;
   height: 5px; 
 }
@@ -222,13 +210,13 @@ h4 {
   a:link {
     text-decoration: none;
     font-weight: none;
-    color: #4f4c42 ;
+    color: #2a4d69 ;
   }
 
   a:visited {
     text-decoration: none;
     font-weight: bold;
-    color: #4f4c42 ;
+    color: #2a4d692 ;
   }
 
   a:hover {
@@ -293,7 +281,6 @@ img {
   float: left; /* Makes the image float to the left */
   margin-right: 15px; /* Adjusts space between the image and text */
   margin-bottom: 15px; /* Adjusts space below the image */
-  border-color: #ada899 ;
   border-radius: 10px;
 }
 
@@ -309,7 +296,7 @@ img {
     padding-bottom: 80px;
     padding-left: 80px;
     padding-right: 40px;
-    background-color: #C9C1B0;
+    background-color: #adcbe3;
     }
 
   .site-title-container {
@@ -317,7 +304,7 @@ img {
     padding-bottom: 0x;
     padding-left: 80px;
     padding-right: 40px;
-    background-color: #d6d1c2 ;
+    background-color: #e7eff6 ;
     min-height: 50vh;          /* Ensure it covers the full viewport height */
     display: flex;             /* Optional: To make sure the content is centered */
 
@@ -336,27 +323,20 @@ img {
   }
 
   .main-cards-item {
-    background-color: #d6d1c2 ;
+    background-color: #e7eff6 ;
     border-radius: 4px;
     margin: 20px;
   }
 
 .main-cards-item:hover {
   /* Add any styles you want to change when the div is hovered */
-  background-color: #c2bdb0 ; /* Change background color */
+  background-color:#adcbe3 ; /* Change background color */
   transform: scale(1.02); /* Slightly scale up the div */
   transition: all 0.3s ease; /* Smooth transition for all properties */
   }
 
 
-/* PROGRESS BAR PAGE PAGE DIV CLASSES */
-  .progress-bar-danger {
-  background: #ffffff;
-  color: #C9C1B0;
-    }
-
-
-    /* CONTACT PAGE DIV CLASSES */
+  /* CONTACT PAGE DIV CLASSES */
 .contact1 {
 padding-top: 80px;
 padding-bottom: 80px;
@@ -472,88 +452,11 @@ ul {
   grid-template-columns: 1fr;  /* Stacks items in a single column */
 }
 
-/* BUTTON CLASSES */
-
-.my-button {
-  background-color: #818a81;  
-  color: white;               
-  padding: ;      
-  font-size: 16px;    
-  font-family:Arial, Helvetica, sans-serif ;       
-  border: 1px;               
-  border-radius: 20px;         
-  cursor: pointer;           
-  transition: background-color 0.3s ease;
-  align-items: center;
-}
-
-.button-container {
-  display: flex;  
-  padding: 40px 30px 100px 10px;
-  justify-content: center ;  /* Space between buttons */
-  gap: 200px;  /* Optional: Space between buttons */
-}
-
-/* Hover state */
-.my-button:hover {
-  background-color: #8b918b;  /* Darker green on hover */
-}
-
-/* Active state */
-.my-button:active {
-  background-color: #576458;  /* Even darker green when clicked */
-}
-
-.ruler {
-color: #576458;
-  padding-bottom: 40px;
-
-}
-
-.container {
-color: #c2bdb0;
-}
-
-
-/* THIS IS THE FOR LARGER BUTTONS THAT LEAD TO SECTIONS */
-
-.mybuttonex {
-  background-color: #818a81;  
-  color: white;               
-  padding-left: 75px;    
-  padding-right: 75px;  
-  margin-top: 40px;
-  font-size: 24px;    
-  font-family:Arial, Helvetica, sans-serif ;       
-  border: 1px;               
-  border-radius: 10px;         
-  cursor: pointer;           
-  transition: background-color 0.3s ease;
-  align-items: center;
-}
-
-.mybuttonex-container {
-  display: flex;  
-  justify-content: center ;  /* Space between buttons */
-  gap: 00px;  /* Optional: Space between buttons */
-}
-
-/* Hover state */
-.mybuttonex:hover {
-  background-color: #8b918b;  /* Darker green on hover */
-}
-
-/* Active state */
-.mybuttonex:active {
-  background-color: #576458;  /* Even darker green when clicked */
-}
-
-
 
 /* THIS IS THE FOOTER SETION */
 
 footer {
-  background-color: #d6d1c2  ;
+  background-color: #e7eff6  ;
   padding: 5px 0;
   text-align: bottom;
   position: fixed;
