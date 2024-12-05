@@ -7,7 +7,7 @@
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  font-size: 60px;
+  font-size: 3em;
 }
 
 .bitterh3
@@ -40,7 +40,7 @@
   text-align: center;
   font-weight: 500;
   font-style: normal;
-  font-size: 30px;
+  font-size: 1.75em;
 }
 
 
@@ -48,7 +48,7 @@
   font-family: "Geologica", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 1,75em;
   font-style: normal;
   font-variation-settings:
     "slnt" 0,
@@ -61,16 +61,16 @@
 
 .mainh3:hover {
   text-decoration: bold;
-  color: #36342e ; 
+  color: #2b2e58 ; 
 }
 
 .mainh3:link {
   text-decoration: bold; 
-  color: #807b6b ; 
+  color: #28285a ; 
 }
 
 body {
-    font-size: 22px;
+    font-size: 1.2em;
     font-family: 'Roboto slab', sans-serif ;
     font-weight: ;
     font-style: normal;
@@ -90,7 +90,7 @@ h2 {
   font-style: normal;
   font-size: 30px;
   color: rgb(48, 48, 61);
-  font-size: 22px;
+  font-size: 1.5em;
   font-family: 'Montserrat', sans-serif ;
   letter-spacing: 2px;
     
@@ -98,7 +98,7 @@ h2 {
 
 .workplace {
   letter-spacing: 2px; 
-  font-size: 14;
+  font-size: .8em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -108,7 +108,7 @@ h2 {
   text-align: justify;
   font-weight: 500;
   font-style: normal;
-  font-size: 25px;
+  font-size: 1.2em;
 }
 
 .course-faculty {
@@ -117,7 +117,7 @@ h2 {
   text-align: justify;
   font-weight: 500;
   font-style: normal;
-  font-size: 22px;
+  font-size: 1.2em;
 }
 
 .course-location-time {
@@ -127,7 +127,7 @@ h2 {
   text-decoration: italic;
   font-weight: 500;
   font-style: normal;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 /* Main text paragraph formatting */
@@ -144,18 +144,31 @@ h2 {
     text-wrap: ;
    }
 
+   .pclasscards {
+    font-size:22px ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    line-height: 1.3em;
+    margin-left: auto;
+    margin-right: auto;
+    color: #2a4d69 ;
+    width: 90%; 
+    text-wrap: ;
+   }
+
+
   /* Special heading for Skills page */
 
 .skills-h2 {
-  font-size:50px ;
+  font-size:3em ;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
-  color: #515551;
+  color: #2a4d69;
  }
   /* Main text for skills description */
 
 .skills {
-  font-size: 22px ;
+  font-size: 2em ;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: justify;
   color: #2a4d69;
@@ -192,7 +205,14 @@ h2 {
 }
 
 
-
+/* PROGRESS BAR FORMATTING */
+.progress {
+  background-color: white; /* Set the background of the progress bar to white */
+  border: 1px solid #ddd; /* Optional: to add a light border around the progress bar */
+}
+.progress-bar {
+  background-color: #6d8ada; /* Adjust the color of the progress bar */
+}
 
 
 
@@ -292,23 +312,37 @@ img {
   /* MAIN PAGE DIV CLASSES - ACCROSS ALL PAGES */
 
   .main-container {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: 80px;
-    padding-right: 40px;
     background-color: #adcbe3;
     }
 
-  .site-title-container {
-    padding-top: 80px;
-    padding-bottom: 0x;
-    padding-left: 80px;
-    padding-right: 40px;
-    background-color: #e7eff6 ;
-    min-height: 50vh;          /* Ensure it covers the full viewport height */
+  .site-title-containermain {
+    background-color: #ffffff ;
+    min-height: 100vh;          /* Ensure it covers the full viewport height */
     display: flex;             /* Optional: To make sure the content is centered */
 
     }
+
+.site-title-container {
+  padding-top: 80px;
+  padding-bottom: 0x;
+  padding-left: 80px;
+  padding-right: 40px;
+  background-color: #e7eff6 ;
+  min-height: 50vh;          /* Ensure it covers the full viewport height */
+  display: flex;             /* Optional: To make sure the content is centered */
+  
+      }    
+
+.site-title-container-special {
+  padding-top: 80px;
+  padding-bottom: 0x;
+  padding-left: 80px;
+  padding-right: 40px;
+  background-color: #e7eff6 ;
+  min-height: 100vh;          /* Ensure it covers the full viewport height */
+  display: flex;             /* Optional: To make sure the content is centered */
+  
+      }   
 
   .site-heading-text-container1 {
     padding-bottom: 80px;
@@ -380,7 +414,7 @@ margin-top: 15px;
    }
 
 .nested-text-container {
-  background: #fffbed;
+  background: #ffffff;
   border-radius: 0px;
   border-width: 0px;
   text-align: justify;
@@ -392,7 +426,7 @@ margin-top: 15px;
 }
 
 .skills-project-text-container {
-  background: #f0e7e7;
+  background: #e7eff6;
   border-radius: 30px;
   text-align: justify
 }
@@ -418,19 +452,6 @@ padding-bottom: 50px;
 padding-top: 50px;
 }
 
-.skill-button {
-  background-color: #818a81;  
-  color: white;               
-  padding: 2px 2px;        
-  font-size: 10px;    
-  font-family:Arial, Helvetica, sans-serif ;       
-  border: 1px;               
-  border-radius: 20px;         
-  cursor: pointer;           
-  transition: background-color 0.3s ease;
-  align-items: bottom;
-  align-content: center;
-}
 
 .contactclass {
   font-size: 70px;
@@ -456,14 +477,15 @@ ul {
 /* THIS IS THE FOOTER SETION */
 
 footer {
-  background-color: #e7eff6  ;
+  background-color: #ffffff  ;
   padding: 5px 0;
   text-align: bottom;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  font-family: sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: .75em;
 }
 
 .footer-container {
@@ -496,7 +518,7 @@ footer {
 .footer-middle ul li a,
  ul li a {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1em;
   color:  rgb(48, 48, 61);
   text-align: right;
 }
