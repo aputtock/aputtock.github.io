@@ -180,6 +180,19 @@ h2 {
     line-height: 160%;
    }
 
+  .pclass-left
+
+  {
+    font-size:22px ;
+    font-family: "Geologica", sans-serif;;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    color: #162836 ;
+    width: 95%; 
+    line-height: 160%;
+   }
+
    .pclasscards {
     font-size:22px ;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -306,10 +319,6 @@ h2 {
   margin-right: 10px;
   width: 150px;
   height: 150px;
-}
-
-img {
-  border-radius: 10px;
 }
 
 .rulerimage {
@@ -509,13 +518,13 @@ padding-top: 50px;
     background-color: #003366; /* Dark blue color */
     color: white;              /* White text */
     font-size: .8em;           /* Small font size */
-    padding: 8px 16px;         /* Padding around the text */
+    padding: 4px 8px;         /* Padding around the text */
     border: none;              /* No border */
     border-radius: 12px;       /* Rounded corners */
     text-align: center;        /* Center align the text */
     cursor: pointer;          /* Pointer cursor on hover */
     transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
-    margin-left: 2%;
+    margin-left: 1%;
     margin-bottom: 1%;
     white-space: nowrap; /* Prevent text from wrapping */
     overflow: hidden;    /* Hide any overflowing text */
