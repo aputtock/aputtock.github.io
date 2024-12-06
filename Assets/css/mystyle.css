@@ -328,8 +328,9 @@ height: 150px;
 
 .main-icon {
   margin-right: 10px;
-  width: 50px;
-  height: 50px;
+  margin-left: 50px;
+  width: 80px;
+  height: 80px;
 }
 
 
@@ -559,8 +560,15 @@ padding-top: 50px;
 
 ul {
   display: grid;
-  grid-template-columns: 1fr;  /* Stacks items in a single column */
+  grid-template-columns: 1fr; 
+
 }
+
+/* LIST CLASSES */
+tasks {
+  
+}
+
 
 
 /* THIS IS THE FOOTER SETION */
@@ -637,3 +645,54 @@ footer {
   text-align: center; /* Centers the text within the heading */
 }
 
+/* FLIP CARD FUNCTION */
+
+.card{
+	width:199px;
+	height:200px;
+	position:relative;
+	-webkit-transform-style:preserve-3d;
+	transform-style:preserve-3d;
+}
+.card-container{
+	-webkit-perspective:1000;
+	-moz-perspective:1000;
+	-o-perspective:1000;
+	perspective:1000;
+	position:relative;
+	width:200px;
+	height:200px;
+}
+.front, .back{
+	width:100%;
+	height:100%;
+	position:absolute;
+	-webkit-backface-visibility:hidden;
+	backface-visibility:hidden;
+	-webkit-transition:-webkit-transform 300ms;
+	transition:-webkit-transform 300ms;
+	transition:transform 300ms;
+	transition:transform 300ms, -webkit-transform 300ms;
+	-webkit-transition-timing-function:linear;
+	transition-timing-function:linear;
+	-webkit-transform-origin:right center;
+	transform-origin:right center;
+}
+.card .front{
+	background:red;
+	-webkit-transform:rotateX(0deg);
+	transform:rotateX(0deg);
+}
+.card .back{
+	background:green;
+	-webkit-transform:rotateX(180deg);
+	transform:rotateX(180deg);
+}
+.card:hover .front {
+	-webkit-transform:rotateX(-180deg);
+	transform:rotateX(-180deg);
+}
+.card:hover .back {
+	-webkit-transform:rotateX(0deg);
+	transform:rotateX(0deg);
+}
